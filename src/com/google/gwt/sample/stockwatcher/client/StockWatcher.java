@@ -19,11 +19,7 @@ public class StockWatcher implements EntryPoint {
 	private Label lastUpdatedLabel = new Label();
 
 	/** * Entry point method. */
-	public void onModuleLoad() { // Create table for stock data.
-									// stocksFlexTable.setText(0, 0, "Symbol");
-									// stocksFlexTable.setText(0, 1, "Price");
-									// stocksFlexTable.setText(0, 2, "Change");
-									// stocksFlexTable.setText(0, 3, "Remove");
+	public void onModuleLoad() {
 
 		// Assemble Add Stock panel.
 		addPanel.add(newSymbolTextBox);
